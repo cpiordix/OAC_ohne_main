@@ -1,0 +1,266 @@
+{
+  "logicalTable" : {
+    "name" : "fact_bestellungen",
+    "type" : "FACT",
+    "logicalColumns" : [ {
+      "name" : "id",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.id" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "bestell_id",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.bestell_id" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "transaktions_id",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.transaktions_id" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "verkaufs_datum",
+      "dataType" : "DATE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.verkaufs_datum" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "verkaufs_zeit",
+      "dataType" : "TIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.verkaufs_zeit" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "filial_id",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.filial_id" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "mitarbeiter_id",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.mitarbeiter_id" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "kunden_id",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.kunden_id" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "produkt_id",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.produkt_id" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "bestellnummer",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.bestellnummer" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "itemnummer",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.itemnummer" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "menge",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.menge" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "einzelpreis",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.einzelpreis" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "summe_einzelpreise",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.summe_einzelpreise" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "vj_menge",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.vj_menge" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "vj_einzelpreis",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.vj_einzelpreis" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "vj_summe_einzelpreise",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "fact_bestellungen",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.vj_summe_einzelpreise" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "fact_bestellungen",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Kaffee.DIM_Filiale",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:Kaffee.DIM_Produkte",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "logicalTable" : {
+    "name" : "DIM_Filiale",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "filiale_id",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.filiale_id" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "filiale",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.filiale" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "filialtyp",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.filialtyp" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "filialgroesse_qm",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.filialgroesse_qm" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "plz",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.plz" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ort",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.ort" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "strasse",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.strasse" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "bundesland",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.bundesland" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "telefon",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.telefon" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Längengrad",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.Längengrad" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Breitengrad",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.Breitengrad" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "filialleiter_id",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Filiale",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.filialleiter_id" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "DIM_Filiale",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "filiale_id" ]
+  }
+}

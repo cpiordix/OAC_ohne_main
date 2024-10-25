@@ -1,0 +1,172 @@
+{
+  "logicalTable" : {
+    "name" : "DIM_Produkte",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "Product_ID",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Produkte",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.Product_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Product_Group",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Produkte",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.Product_Group" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Product_Category",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Produkte",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.Product_Category" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Product_Type",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Produkte",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.Product_Type" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Product",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Produkte",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.Product" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Unit_of_Measure",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Produkte",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.Unit_of_Measure" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Current_Wholesale_Price",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Produkte",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.Current_Wholesale_Price" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Current_Retail_Price",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Produkte",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.Current_Retail_Price" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Steuerfrei",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Produkte",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.Steuerfrei" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Werbeprodukt",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Produkte",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.Werbeprodukt" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "NeuesProdukt",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DIM_Produkte",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.NeuesProdukt" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "DIM_Produkte",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "Product_ID" ]
+  }
+}

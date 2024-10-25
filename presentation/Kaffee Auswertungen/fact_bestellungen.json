@@ -1,0 +1,57 @@
+{
+  "presentationTable" : {
+    "name" : "fact_bestellungen",
+    "presentationColumns" : [ {
+      "name" : "id",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.id"
+    }, {
+      "name" : "bestell_id",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.bestell_id"
+    }, {
+      "name" : "transaktions_id",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.transaktions_id"
+    }, {
+      "name" : "verkaufs_datum",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.verkaufs_datum"
+    }, {
+      "name" : "verkaufs_zeit",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.verkaufs_zeit"
+    }, {
+      "name" : "filial_id",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.filial_id"
+    }, {
+      "name" : "mitarbeiter_id",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.mitarbeiter_id"
+    }, {
+      "name" : "kunden_id",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.kunden_id"
+    }, {
+      "name" : "produkt_id",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.produkt_id"
+    }, {
+      "name" : "bestellnummer",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.bestellnummer"
+    }, {
+      "name" : "itemnummer",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.itemnummer"
+    }, {
+      "name" : "menge",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.menge"
+    }, {
+      "name" : "einzelpreis",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.einzelpreis"
+    }, {
+      "name" : "summe_einzelpreise",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.summe_einzelpreise"
+    }, {
+      "name" : "vj_menge",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.vj_menge"
+    }, {
+      "name" : "vj_einzelpreis",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.vj_einzelpreis"
+    }, {
+      "name" : "vj_summe_einzelpreise",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.fact_bestellungen.vj_summe_einzelpreise"
+    } ]
+  }
+}

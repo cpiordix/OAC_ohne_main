@@ -1,0 +1,13 @@
+{
+  "subjectArea" : {
+    "name" : "Kaffee Auswertungen",
+    "sourceBusinessModel" : "businessModel:Kaffee",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Kaffee Auswertungen.fact_bestellungen"
+    }, {
+      "name" : "presentationTable:Kaffee Auswertungen.DIM_Filiale"
+    }, {
+      "name" : "presentationTable:Kaffee Auswertungen.DIM_Produkte"
+    } ]
+  }
+}

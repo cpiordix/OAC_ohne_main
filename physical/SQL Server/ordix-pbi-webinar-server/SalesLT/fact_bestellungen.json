@@ -1,0 +1,115 @@
+{
+  "physicalTable" : {
+    "name" : "fact_bestellungen",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "id",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "bestell_id",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "transaktions_id",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "verkaufs_datum",
+      "dataType" : "DATE",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "verkaufs_zeit",
+      "dataType" : "TIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "filial_id",
+      "dataType" : "INT",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "mitarbeiter_id",
+      "dataType" : "INT",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "kunden_id",
+      "dataType" : "INT",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "produkt_id",
+      "dataType" : "INT",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "bestellnummer",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "itemnummer",
+      "dataType" : "INT",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "menge",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "einzelpreis",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "summe_einzelpreise",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "vj_menge",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "vj_einzelpreis",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "vj_summe_einzelpreise",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    },
+    "joins" : [ {
+      "rightTable" : "physicalTable:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.filial_id",
+        "rightColumn" : "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Filiale.filiale_id"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.fact_bestellungen.produkt_id",
+        "rightColumn" : "physicalColumn:SQL Server.ordix-pbi-webinar-server.SalesLT.DIM_Produkte.Product_ID"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
+  }
+}

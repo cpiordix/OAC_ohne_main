@@ -1,0 +1,71 @@
+{
+  "physicalTable" : {
+    "name" : "DIM_Filiale",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "filiale_id",
+      "dataType" : "INT",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "filiale",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "filialtyp",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "filialgroesse_qm",
+      "dataType" : "INT",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "plz",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ort",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "strasse",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "bundesland",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "telefon",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "Längengrad",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "Breitengrad",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "filialleiter_id",
+      "dataType" : "INT",
+      "length" : 0,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

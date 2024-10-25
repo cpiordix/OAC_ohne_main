@@ -1,0 +1,42 @@
+{
+  "presentationTable" : {
+    "name" : "DIM_Filiale",
+    "presentationColumns" : [ {
+      "name" : "filiale_id",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.filiale_id"
+    }, {
+      "name" : "filiale",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.filiale"
+    }, {
+      "name" : "filialtyp",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.filialtyp"
+    }, {
+      "name" : "filialgroesse_qm",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.filialgroesse_qm"
+    }, {
+      "name" : "plz",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.plz"
+    }, {
+      "name" : "ort",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.ort"
+    }, {
+      "name" : "strasse",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.strasse"
+    }, {
+      "name" : "bundesland",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.bundesland"
+    }, {
+      "name" : "telefon",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.telefon"
+    }, {
+      "name" : "Längengrad",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.Längengrad"
+    }, {
+      "name" : "Breitengrad",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.Breitengrad"
+    }, {
+      "name" : "filialleiter_id",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Filiale.filialleiter_id"
+    } ]
+  }
+}

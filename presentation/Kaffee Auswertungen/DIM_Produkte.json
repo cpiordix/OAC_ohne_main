@@ -1,0 +1,39 @@
+{
+  "presentationTable" : {
+    "name" : "DIM_Produkte",
+    "presentationColumns" : [ {
+      "name" : "Product_ID",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Product_ID"
+    }, {
+      "name" : "Product_Group",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Product_Group"
+    }, {
+      "name" : "Product_Category",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Product_Category"
+    }, {
+      "name" : "Product_Type",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Product_Type"
+    }, {
+      "name" : "Product",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Product"
+    }, {
+      "name" : "Unit_of_Measure",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Unit_of_Measure"
+    }, {
+      "name" : "Current_Wholesale_Price",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Current_Wholesale_Price"
+    }, {
+      "name" : "Current_Retail_Price",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Current_Retail_Price"
+    }, {
+      "name" : "Steuerfrei",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Steuerfrei"
+    }, {
+      "name" : "Werbeprodukt",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Werbeprodukt"
+    }, {
+      "name" : "NeuesProdukt",
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.NeuesProdukt"
+    } ]
+  }
+}

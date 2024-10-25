@@ -1,0 +1,66 @@
+{
+  "physicalTable" : {
+    "name" : "DIM_Produkte",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "Product_ID",
+      "dataType" : "INT",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "Product_Group",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "Product_Category",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "Product_Type",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "Product",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "Unit_of_Measure",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "Current_Wholesale_Price",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "Current_Retail_Price",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "Steuerfrei",
+      "dataType" : "VARCHAR",
+      "length" : 4,
+      "nullable" : false
+    }, {
+      "name" : "Werbeprodukt",
+      "dataType" : "VARCHAR",
+      "length" : 4,
+      "nullable" : false
+    }, {
+      "name" : "NeuesProdukt",
+      "dataType" : "VARCHAR",
+      "length" : 4,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}
