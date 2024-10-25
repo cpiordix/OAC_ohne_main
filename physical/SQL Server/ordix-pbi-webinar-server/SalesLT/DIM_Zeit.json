@@ -1,0 +1,66 @@
+{
+  "physicalTable" : {
+    "name" : "DIM_Zeit",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "DateKey",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "Date",
+      "dataType" : "DATE",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WeekDayName",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "WeekDayName_Short",
+      "dataType" : "CHAR",
+      "length" : 3,
+      "nullable" : false
+    }, {
+      "name" : "Month",
+      "dataType" : "INT",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "MonthName",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "MonthName_Short",
+      "dataType" : "CHAR",
+      "length" : 3,
+      "nullable" : false
+    }, {
+      "name" : "Quarter",
+      "dataType" : "INT",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "QuarterName",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "Year",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "YYYYMM",
+      "dataType" : "CHAR",
+      "length" : 6,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}
