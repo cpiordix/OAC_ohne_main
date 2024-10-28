@@ -3,7 +3,7 @@
     "name" : "DIM_Produkte",
     "type" : "DIMENSION",
     "logicalColumns" : [ {
-      "name" : "Product_ID",
+      "name" : "Product_id",
       "dataType" : "INT",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -167,6 +167,6 @@
       "enableFragmentSelection" : false,
       "distinctValues" : false
     } ],
-    "primaryKey" : [ "Product_ID" ]
+    "primaryKey" : [ "Product_id" ]
   }
 }

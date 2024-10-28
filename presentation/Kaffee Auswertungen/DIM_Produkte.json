@@ -3,7 +3,7 @@
     "name" : "DIM_Produkte",
     "presentationColumns" : [ {
       "name" : "Product_ID",
-      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Product_ID"
+      "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Product_id"
     }, {
       "name" : "Product_Group",
       "sourceLogicalColumn" : "logicalColumn:Kaffee.DIM_Produkte.Product_Group"
