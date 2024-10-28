@@ -1,6 +1,6 @@
 {
   "subjectArea" : {
-    "name" : "Kaffee Auswertungen",
+    "name" : "Kaffee Auswertung",
     "sourceBusinessModel" : "businessModel:Kaffee",
     "tableOrder" : [ {
       "name" : "presentationTable:Kaffee Auswertungen.fact_bestellungen"
